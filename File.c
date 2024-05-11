@@ -5,7 +5,7 @@ int main() {
     int line;
     char data[50], data1[50];
 
-    fp = fopen("demo.txt", "w");
+    fp = fopen("source.txt", "w");
     
     printf("Enter the number of lines to be entered: ");
     scanf("%d", &line);
@@ -20,14 +20,14 @@ int main() {
 
     fclose(fp);
 
-    fp = fopen("demo.txt", "r");
+    // fp = fopen("source.txt", "r");
 
-    printf("\nData in demo.txt:\n");
+    // printf("\nData in source.txt:\n");
     
-    while (fgets(data1, sizeof(data1), fp) ) {
-        puts(data1);
-    }
+    // while (fgets(data1, sizeof(data1), fp) ) {
+    //     puts(data1);
+    // }
     
-    fclose(fp);
+    // fclose(fp);
     return 0;
 }
