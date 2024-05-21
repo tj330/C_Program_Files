@@ -13,30 +13,26 @@ union Address
 
 void main() {
     union Address record1;
+
     printf("Enter name:");
-    getchar();
     gets(record1.name);
 
     printf("Enter house name:");
-    getchar();
     gets(record1.hname);
 
     printf("Enter city name:");
-    getchar();
     gets(record1.cityname);
 
     printf("Enter state name:");
-    getchar();
     gets(record1.state);
 
     printf("Enter pin:");
-    getchar();
     gets(record1.pin);
 
     printf("Union record1 values ....\n");
-    printf(" Name          : %s \n", record1.name);
-    printf(" House Name    : %s \n", record1.hname);
-    printf(" City Name     : %s \n", record1.cityname);
-    printf(" State name    : %s \n", record1.state);
-    printf(" Pin       	  : %s \n\n", record1.pin);
+    printf("Name: %s \n", record1.name);
+    printf("House Name: %s \n", record1.hname);
+    printf("City Name: %s \n", record1.cityname);
+    printf("State name: %s \n", record1.state);
+    printf("Pin: %s \n", record1.pin);
 }
