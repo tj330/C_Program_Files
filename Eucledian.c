@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 struct Point {
-int x;
-int y;
+    int x;
+    int y;
 };
 
 void main() {
